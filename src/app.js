@@ -26,7 +26,6 @@ window.onload = function() {
     let Aleatorio = `${who[rand1]} ${action[rand2]} ${what[rand3]} ${when[rand4]}`;
     let excuseElement = document.getElementById("excuse");
     excuseElement.innerHTML = Aleatorio; // Actualiza el texto en la página
-    excuseElement.style.visibility = "visible"; // Hace visible la excusa generada
   }
   generarexcusas();
 };
